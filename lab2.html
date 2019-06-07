@@ -10,8 +10,54 @@
 
 </head>
 <body>
+    <!--Create H2 element header to contain text. -->
+    <div>
+        <h2>Numbers Guessing Game</h2>
+    </div>
 
+    <!--Create division class picture container one (1) element to contain picture silhouette displayed in background. -->
+    <div class="picture-container1">
+        <!--Create division class quessing game form one (1) element container for users inputs.-->
+        <div class="guessingGame-form1">
+            <!--Create division id first (1st) name element for users inputs.-->
+            <div id="input-field">
+                <input type="text" id="input1" value="First Name" />
+            </div>
+
+            <div id="input-field">
+                <input type="text" id="input2" value="Last Name" />
+            </div>     
+            
+        </div>
+
+        <div class="guessingGame-form1">
+            <div id="input-field">
+                <input type="date" id="input3" />                    
+            </div>
+        </div>
+    
+
+        <div class="guessingGame-form1">
+            <div id="input-field">
+                <p id="outputText1"></p>
+                <p id="outputText2"></p>
+                <p id="outputText3"></p>
+            </div>
+        </div>
+       
+        <div>  
+            <button onclick="buttonFunction1()">Clear Inputs</button>       
+            <button onclick="buttonFunction2()">Submit Information</button>                
+        </div>   
+
+    </div>
+    
+   
     <script src="lab2.js"></script>
+
+    <p>
+        Photo by Alan Emery on Unsplash.com
+    </p>
     
 </body>
 </html>
