@@ -47,7 +47,29 @@ function buttonFunction3() {
     document.getElementById("outputGuess4").innerHTML = userGuess4;
 
     var userGuess5 = document.getElementById("guess5").value;
-    document.getElementById("outputGuess5").innerHTML = userGuess5;
+    document.getElementById("outputGuess5").innerHTML = userGuess5;    
+
+    var guessListNumber = [];
+    guessListNumber.push(userGuess1, userGuess2, userGuess3, userGuess4, userGuess5);
+    document.getElementById("outputList").innerHTML = guessListNumber;  
+    
+    
+}
+
+
+
+var answerKey = 18; 
+var count, len, text;
+for (count = 0, len = guessListNumber.length, text = ""; count < len; count++) {
+if (guessListNumber[count] === AnswerKey) {
+   
+    document.getElementById("outputAnswer").innerHTML = "Congratulation! You have guess the number " + AnswerKey + " correctly. And, YOU WIN THE NUMBER GUESSING GAME!";
+
+    }
+
+else {
+    document.getElementById("outputAnswer").innerHTML = "Your five (5) numbers guesses, you have entered are incorrect.  Please click onto the 'Reset Numbers Guesses' buttton to try again.";
+    }
 }
 
 function buttonFunction4() {
@@ -61,4 +83,8 @@ function buttonFunction4() {
     document.getElementById("outputGuess3").innerHTML = "";
     document.getElementById("outputGuess4").innerHTML = "";
     document.getElementById("outputGuess5").innerHTML = "";
+    document.getElementById("outputList").innerHTML = "";
 }
+
+
+
