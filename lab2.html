@@ -12,42 +12,76 @@
 <body>
     <!--Create H2 element header to contain text. -->
     <div>
-        <h2>Numbers Guessing Game</h2>
+         <h2>Numbers Guessing Game</h2>
     </div>
 
     <!--Create division class picture container one (1) element to contain picture silhouette displayed in background. -->
     <div class="picture-container1">
         <!--Create division class quessing game form one (1) element container for users inputs.-->
         <div class="guessingGame-form1">
-            <!--Create division id first (1st) name element for users inputs.-->
+            <!--Create division id input 1 element for the users first name inputs.-->
             <div id="input-field">
                 <input type="text" id="input1" value="First Name" />
             </div>
-
+            <!--Create division id input2 element for the users last name inputs.-->
             <div id="input-field">
                 <input type="text" id="input2" value="Last Name" />
-            </div>     
-            
+            </div>
         </div>
 
         <div class="guessingGame-form1">
+            <!--Create division id input 3 element for users selected date inputs.-->
             <div id="input-field">
                 <input type="date" id="input3" />                    
             </div>
-        </div>
-    
+        </div>    
 
         <div class="guessingGame-form1">
+            <!--Create division id outputText 1, 2 and 3 elements for displaying users data inputs onto the guessing game webpage.-->
             <div id="input-field">
                 <p id="outputText1"></p>
                 <p id="outputText2"></p>
                 <p id="outputText3"></p>
+                <p id="outputText4"></p>
+                <p id="outputText5"></p>
+                <p id="outputGuess1"></p>
+                <p id="outputGuess2"></p>
+                <p id="outputGuess3"></p>
+                <p id="outputGuess4"></p>
+                <p id="outputGuess5"></p>
+                
             </div>
         </div>
+
+        <div class="guessingGame-form1">
+                <!--Create division id input 1 element for the users first name inputs.-->
+                <div id="input-field">
+                    <input type="text" id="guess1" value="1st Guess" />
+                </div>
+                <!--Create division id input2 element for the users last name inputs.-->
+                <div id="input-field">
+                    <input type="text" id="guess2" value="2nd Guess" />
+                </div>
+
+                <div id="input-field">
+                    <input type="text" id="guess3" value="3rd Guess" />                    
+                </div>
+
+                <div id="input-field">
+                    <input type="text" id="guess4" value="4th Guess" />                    
+                </div>
+
+                
+                <div id="input-field">
+                    <input type="text" id="guess5" value="5th Guess" />                    
+                </div>
+            </div>
        
         <div>  
-            <button onclick="buttonFunction1()">Clear Inputs</button>       
-            <button onclick="buttonFunction2()">Submit Information</button>                
+            <button onclick="buttonFunction1()">Reset Form</button> 
+            <button onclick="buttonFunction2()">Submit Information</button> 
+            <button onclick="buttonFunction3()">Submit Numbers Guess</button>  
+            <button onclick="buttonFunction4()">Reset Numbers Guess</button>        
         </div>   
 
     </div>
