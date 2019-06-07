@@ -1,0 +1,118 @@
+/* Add CSS background color to html body. */
+body {
+    background-color: rgb(4, 12, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50;
+    color: white;
+    font-size: 17px;
+}
+
+/* Add CSS to html H2 element. */
+h2 {
+    color: #e1d7be;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 50;
+}
+
+/* Add CSS class picture element container for silhouette background display for gussing game programmatic language in JavaScript. */
+.picture-container1 {
+    padding: 10px;
+    flex-direction: row;
+    background-color: rgb(4, 12, 9);
+    align-items: center;
+    justify-content: center;
+    background: url('c:/Users/sarai/Documents/Pictures/Pink Swan.jpg') no-repeat top center;
+    background-size: cover;
+    height: 1600px; 
+   
+}
+
+/* Add CSS class guessing game form one (1) element container to store id input fields into shadow boxes. */
+.guessingGame-form1 {
+    max-width: 1000px;  
+    margin: 0 auto;
+    background: rgba(107, 107, 107, 0.65);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.061);
+  }
+
+/* Add CSS id input field elements containers to store users input fields information. */
+#input-field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+/* Add CSS users information styles to their input field and input elements containers
+   for borders, fonts, color, background, padding and width underlines percentage. */
+#input-field, #input1, #input2 {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c7480f;
+  padding: 10px;
+  color: #e1d7be;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 17px;
+  width: 90%;
+}
+
+/*Create css language to cancel button one (1) when users click onto the cancel button one (1) and clear input details, this will return user to the AutonOfy's homepage.*/
+button {
+    background: rgba(107, 107, 107, 0.65);
+    font-size: 16px;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    text-align: center;
+    padding: 15px;
+    border-radius: 3px;
+    color: #e1d7be;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 25px;
+  }
+
+
+#input3 {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c7480f;
+    padding: 10px;
+    color: #e1d7be;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;    
+  }
+
+  select {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c7480f;
+    padding: 10px;
+    color: #e1d7be;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;  
+
+  }
+
+
+
+::-webkit-input-placeholder {
+    color: #e1d7be;
+}
+::-moz-input-placeholder {
+    color: #e1d7be;
+}
+
+::-ms-input-placeholder {
+    color: #e1d7be;
+}
+
+
